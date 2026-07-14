@@ -24,6 +24,7 @@ export function Board(){
             }}>
          
        {pendingTask.map(task=> <Card
+       key={task.id}
        id={task.id}
         title= {task.title}
         description={task.description}/>
@@ -42,6 +43,7 @@ export function Board(){
             }}>
            
        {onGoingTask.map(task=> <Card
+       key={task.id}
        id={task.id}
         title= {task.title}
         description={task.description}/>
@@ -61,6 +63,7 @@ export function Board(){
             }}>
            
        {doneTask.map(task=> <Card
+       key={task.id}
        id={task.id}
         title= {task.title}
         description={task.description}/>
