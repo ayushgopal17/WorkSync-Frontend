@@ -3,7 +3,7 @@ import { Center } from "./Center"
 import {Input} from "./Input"
 
 export function AuthCredential(){
-    return <div style={{minHeight:"100vh", display:"flex", alignItems:"center", backgroundColor:"#26767d"}}>
+    return <div style={{minHeight:"100vh", display:"flex", alignItems:"center", backgroundColor:"#5811a9"}}>
        <div style={{width:"100%"}}>
         <div style={{fontSize:30,padding:20}}>
         <Center >
